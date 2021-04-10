@@ -37,3 +37,14 @@ Press quit button to quit the game.
     
 Restart to Carousel phase until end of game.
 
+
+## Image detection
+
+Based on pattern matching. Riot provides the champions' icons.
+The camera is still, so interface elements and the grid are still, so we can draw bounding box for each element.
+
+### Champion detection on the grid
+1. Right click on the champion to get description.
+2. Get difference between last frame and current frame to get only the champion description
+3. Apply text detection and image detection to get champion's name and items
+
