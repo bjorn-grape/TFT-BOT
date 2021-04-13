@@ -48,3 +48,6 @@ The camera is still, so interface elements and the grid are still, so we can dra
 2. Get difference between last frame and current frame to get only the champion description
 3. Apply text detection and image detection to get champion's name and items
 
+## Meta
+We could grab the best composition on external sites or apps like Blitz, in order to tell \\
+the AI which champions or compositions to favour
